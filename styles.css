@@ -47,7 +47,7 @@ body {
 }
 
 .studysync-logo {
-    background-color: azure;
+    background-color: var(--background-color);
     width: 2.5rem;
     height: 2.5rem;
 }
