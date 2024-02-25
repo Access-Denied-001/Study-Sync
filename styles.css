@@ -521,8 +521,8 @@ body {
 }
 
 .newsletter-image-container {
-    /* overflow: hidden; */
-    border: 2px solid red;
+    overflow: hidden;
+    /* border: 2px solid red; */
     width: 50%;
     height: auto;
     
