@@ -435,7 +435,7 @@ body {
     align-items: center;
     justify-content: center;
     margin-top: 2rem;
-    padding: 2rem;
+    padding: 3rem;
 }
 
 .testimonials-header {
@@ -516,8 +516,10 @@ body {
     height: max-content;
     margin: 0 auto;
     display: flex;
-    /* gap: 2rem; */
+    gap: 3rem;
     align-items: center;
+    border-radius: 3rem;
+    box-shadow: 0 5px 15px 17px #dba5a5;
 }
 
 .newsletter-image-container {
@@ -525,7 +527,9 @@ body {
     /* border: 2px solid red; */
     width: 50%;
     height: auto;
-    
+    border-top-left-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+    display: flex;
 }
 
 .newsletter-image {
@@ -544,7 +548,7 @@ body {
     flex-direction: column;
     align-items: start;
     justify-content: center;
-    padding: 5rem 2rem;
+    padding-right: 2rem;
     gap: 1rem;
 }
 
