@@ -649,3 +649,153 @@ body {
         text-align: center;
     }
 }
+
+.footer-section {
+    height: max-content;
+    width: 100%;
+    margin-top: 5rem;
+    padding-top: 2.5rem;
+    background-color: azure;
+}
+
+.footer-content {
+    max-width: 1700px;
+    height: max-content;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 2px solid red; */
+    padding: 0 2rem;
+}
+
+.footer-navigation {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 1rem;
+    /* border: 2px solid red; */
+}
+
+.company-info {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 1.5rem;
+    padding: 0 2rem;
+    border: 2px solid red;
+}
+
+.company-details {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--gray);
+}
+
+.company-contact {
+    height: 2rem;
+    width: 2rem;
+    color: var(--dark-gray);
+    border-radius: 0.1rem;
+}
+
+.company-contact:hover {
+    transform: scale(1.2);
+    transition-duration: 10ms;
+    transition-timing-function: ease-in-out;
+}
+
+.company-contacts {
+    display: flex;
+    gap: 1rem;
+    /* border: 2px solid red; */
+}
+
+.navigation-panel {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    width: 70%;
+    justify-items: center;
+    row-gap: 2rem;
+    column-gap: 2rem;
+    border: 2px solid red;
+}
+
+.nav-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: start;
+}
+
+.nav-section-header {
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: var(--text-color);
+}
+
+.nav-section-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.5rem;
+}
+
+.nav-item {
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: var(--gray);
+    text-align: left;
+    overflow-wrap: break-word
+}
+
+.nav-item:hover {
+    color: var(--link-color);
+}
+
+.copyright-section {
+    padding: 0.5rem 0;
+    font-size: 1.15rem;
+    font-weight: 500;
+}
+
+.navbar-header-1 {
+    display: flex;
+    color: var(--text-color);
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.studysync-header-1 {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: var(--text-color);
+}
+
+.studysync-logo-1 {
+    background-color: azure;
+    width: 2rem;
+    height: 2rem;
+}
+
+@media screen and (max-width: 930px) {
+    .footer-navigation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+        bordeR: 2px solid red;
+    }
+    .company-info {
+        width: 100%;
+    }
+    .navigation-panel {
+        width: 100%;
+        grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+
+        justify-items: center;
+    }
+}
