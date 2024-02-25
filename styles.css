@@ -627,15 +627,17 @@ body {
     }
 
     .newsletter-form {
-        padding: 2rem;
+        padding: 2rem 0;
     }
 
     .form-title {
         text-align: center;
+        font-size: 1.5rem;
     }
 
     .form-anouncement {
         text-align: center;
+        font-size: 0.75rem;
     }
 
     .email-input {
